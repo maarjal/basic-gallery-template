@@ -77,3 +77,10 @@ header {
     margin-right: 3%;
   }
 }
+
+@media screen and (max-width: 770px) {
+  .item1, .item2, .item3, .item4, .item5, .item6 {
+    width: 98%;
+    margin: 5% 0 0 0;
+  }
+}
