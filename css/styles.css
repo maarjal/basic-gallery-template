@@ -66,3 +66,14 @@ header {
 .item2, .item3, .item5, .item6 {
   margin-left: 3%;
 }
+
+@media screen and (max-width: 1300px) {
+  .item1, .item2, .item3, .item4, .item5, .item6 {
+    width: 48.5%;
+    margin: 5% 0 0 0;
+  }
+
+  .gallery div:nth-child(odd) {
+    margin-right: 3%;
+  }
+}
