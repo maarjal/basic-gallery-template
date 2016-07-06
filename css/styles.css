@@ -20,11 +20,16 @@ header {
   background-color: red;
   width: 96%;
   height: 15%;
+  margin-top: 3%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .gallery {
-  width: 96%;
+  width: 90%;
   height: 85%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .item1 {
@@ -52,6 +57,12 @@ header {
 }
 
 .item1, .item2, .item3, .item4, .item5, .item6 {
-  width: 28%;
-  height: 28%;
+  width: 31.30%;
+  height: 39%;
+  float: left;
+  margin-top: 3%;
+}
+
+.item2, .item3, .item5, .item6 {
+  margin-left: 3%;
 }
