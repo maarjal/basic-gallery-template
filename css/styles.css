@@ -1,0 +1,57 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.wrap {
+  width: 100vw;
+  height: 100vh;
+}
+
+header {
+  background-color: red;
+  width: 96%;
+  height: 15%;
+}
+
+.gallery {
+  width: 96%;
+  height: 85%;
+}
+
+.item1 {
+  background-color: green;
+}
+
+.item2 {
+  background-color: orange;
+}
+
+.item3 {
+  background-color: purple;
+}
+
+.item4 {
+  background-color: pink;
+}
+
+.item5 {
+  background-color: brown;
+}
+
+.item6 {
+  background-color: blue;
+}
+
+.item1, .item2, .item3, .item4, .item5, .item6 {
+  width: 28%;
+  height: 28%;
+}
